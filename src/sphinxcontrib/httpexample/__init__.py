@@ -31,5 +31,5 @@ def setup(app):
     app.add_js_file(JS_FILE)
     app.add_css_file(CSS_FILE)
     app.add_config_value('httpexample_scheme', 'http', 'html')
-    dist = pkg_resources.get_distribution('sphinxcontrib-httpexample')
+    dist = pkg_resources.get_distribution('sphinxcontrib-httpexample-rotki')
     return {'version': dist.version}
