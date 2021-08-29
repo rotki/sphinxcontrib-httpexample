@@ -49,10 +49,6 @@ EXCLUDE_HEADERS_REQUESTS = EXCLUDE_HEADERS + [
 def build_curl_command(request):
     parts = ['curl', '-i']
 
-    # Method
-    if request.command != 'GET':
-        parts.append('-X {}'.format(request.command))
-
     # URL
     parts.append(shlex_quote(request.url()))
 
