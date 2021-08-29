@@ -1,5 +1,5 @@
-sphinxcontrib-httpexample
-=========================
+sphinxcontrib-httpexample rotki fork
+========================================
 
 .. image:: https://github.com/collective/sphinxcontrib-httpexample/actions/workflows/build.yml/badge.svg?branch=master
    :target: https://github.com/collective/sphinxcontrib-httpexample/actions
@@ -12,6 +12,12 @@ sphinxcontrib-httpexample
 
 .. image:: https://readthedocs.org/projects/sphinxcontrib-httpexample/badge/?version=latest
    :target: http://sphinxcontrib-httpexample.readthedocs.io/en/latest
+
+
+.. note::
+
+   This is a fork of https://github.com/collective/sphinxcontrib-httpexample modified for the purposes of rotki.
+
 
 sphinxcontrib-httpexample enhances `sphinxcontrib-httpdomain`_, a Sphinx domain extension for describing RESTful HTTP APIs in detail, with a simple call example directive. The new directive provided by this extension generates RESTful HTTP API call examples for different tools from a single HTTP request example.
 
